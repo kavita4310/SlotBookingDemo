@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="WalletTCell" rowHeight="78" id="KGk-i7-Jjw" customClass="WalletTCell" customModule="SlotBookingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="78"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="osL-iv-jgn">
+                        <rect key="frame" x="10" y="0.0" width="301" height="78"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdm-IC-hjQ">
+                                <rect key="frame" x="0.0" y="0.0" width="301" height="78"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tWh-sj-FWD">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="78"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.up.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="H4u-yH-DCj">
+                                                <rect key="frame" x="8.6666666666666679" y="35" width="13" height="9"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="JFz-Y5-Wxf"/>
+                                                    <constraint firstAttribute="width" constant="13" id="Rp4-od-dK1"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="H4u-yH-DCj" firstAttribute="centerY" secondItem="tWh-sj-FWD" secondAttribute="centerY" id="P50-x0-7dR"/>
+                                            <constraint firstItem="H4u-yH-DCj" firstAttribute="centerX" secondItem="tWh-sj-FWD" secondAttribute="centerX" id="ZNG-HD-x5s"/>
+                                            <constraint firstAttribute="width" constant="30" id="ibC-U1-3XG"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbH-BW-Xp5">
+                                        <rect key="frame" x="30" y="0.0" width="135.66666666666666" height="78"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BqD-LT-z96">
+                                                <rect key="frame" x="5.0000000000000071" y="5" width="125.66666666666669" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1H-cE-Ypn">
+                                                        <rect key="frame" x="0.0" y="0.0" width="125.66666666666667" height="34"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Z-wU-OcY">
+                                                        <rect key="frame" x="0.0" y="34" width="125.66666666666667" height="34"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="12"/>
+                                                        <color key="textColor" red="0.42745098469999998" green="0.5176470876" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="BqD-LT-z96" secondAttribute="bottom" constant="5" id="4P3-et-yo0"/>
+                                            <constraint firstItem="BqD-LT-z96" firstAttribute="top" secondItem="YbH-BW-Xp5" secondAttribute="top" constant="5" id="LzF-Eg-bXh"/>
+                                            <constraint firstItem="BqD-LT-z96" firstAttribute="leading" secondItem="YbH-BW-Xp5" secondAttribute="leading" constant="5" id="PHA-7h-xFZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="BqD-LT-z96" secondAttribute="trailing" constant="5" id="dsJ-JH-SID"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVe-2J-jSm">
+                                        <rect key="frame" x="165.66666666666663" y="0.0" width="135.33333333333337" height="78"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="u8B-3A-HjA">
+                                                <rect key="frame" x="4.9999999999999929" y="5" width="125.33333333333331" height="68"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgv-sH-i8N">
+                                                        <rect key="frame" x="0.0" y="0.0" width="125.33333333333333" height="34"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZD-lC-Dw3">
+                                                        <rect key="frame" x="0.0" y="34" width="125.33333333333333" height="34"/>
+                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="12"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="u8B-3A-HjA" firstAttribute="leading" secondItem="ZVe-2J-jSm" secondAttribute="leading" constant="5" id="GPd-p4-jpl"/>
+                                            <constraint firstItem="u8B-3A-HjA" firstAttribute="top" secondItem="ZVe-2J-jSm" secondAttribute="top" constant="5" id="N7t-DZ-aza"/>
+                                            <constraint firstAttribute="trailing" secondItem="u8B-3A-HjA" secondAttribute="trailing" constant="5" id="bKf-M9-dBO"/>
+                                            <constraint firstAttribute="bottom" secondItem="u8B-3A-HjA" secondAttribute="bottom" constant="5" id="ebC-4G-pZF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ZVe-2J-jSm" firstAttribute="width" secondItem="YbH-BW-Xp5" secondAttribute="width" id="Umh-hE-pfT"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="tdm-IC-hjQ" secondAttribute="bottom" id="3lY-vW-iBY"/>
+                            <constraint firstAttribute="trailing" secondItem="tdm-IC-hjQ" secondAttribute="trailing" id="Ou5-gM-1OT"/>
+                            <constraint firstItem="tdm-IC-hjQ" firstAttribute="top" secondItem="osL-iv-jgn" secondAttribute="top" id="RxD-Ff-jTI"/>
+                            <constraint firstItem="tdm-IC-hjQ" firstAttribute="leading" secondItem="osL-iv-jgn" secondAttribute="leading" id="Ybt-nf-MCF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="cellClr"/>
+                <constraints>
+                    <constraint firstItem="osL-iv-jgn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="2TM-8t-pdG"/>
+                    <constraint firstAttribute="trailing" secondItem="osL-iv-jgn" secondAttribute="trailing" constant="10" id="Z5w-xR-OEb"/>
+                    <constraint firstAttribute="bottom" secondItem="osL-iv-jgn" secondAttribute="bottom" id="nO1-wb-Ye8"/>
+                    <constraint firstItem="osL-iv-jgn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rwx-Qn-T5v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgArrow" destination="H4u-yH-DCj" id="7RU-J4-rVz"/>
+                <outlet property="lblDescription" destination="M9Z-wU-OcY" id="ANd-NY-4W9"/>
+                <outlet property="lblHours" destination="EZD-lC-Dw3" id="IUm-ak-Uwg"/>
+                <outlet property="lblName" destination="V1H-cE-Ypn" id="ZVi-ew-Xzu"/>
+                <outlet property="lblPrice" destination="xgv-sH-i8N" id="bXU-l0-w8A"/>
+            </connections>
+            <point key="canvasLocation" x="-40.458015267175568" y="31.690140845070424"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.up.right" catalog="system" width="128" height="112"/>
+        <namedColor name="cellClr">
+            <color red="0.9529411793" green="0.96862745289999996" blue="0.96862745289999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

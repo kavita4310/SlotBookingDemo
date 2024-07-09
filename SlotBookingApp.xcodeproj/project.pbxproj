@@ -7,23 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2B06172C3D3F8400581725 /* WalletTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B06162C3D3F8400581725 /* WalletTCell.xib */; };
+		9D2B06182C3D3F8400581725 /* WalletTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B06152C3D3F8400581725 /* WalletTCell.swift */; };
+		9D3D3ADA2C3D165C003FA0CB /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3AD92C3D165C003FA0CB /* ProductModel.swift */; };
+		9D3D3ADC2C3D1670003FA0CB /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3ADB2C3D1670003FA0CB /* ProductViewModel.swift */; };
+		9D3D3ADE2C3D16B5003FA0CB /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3ADD2C3D16B5003FA0CB /* BaseUrl.swift */; };
+		9D3D3AE02C3D16D8003FA0CB /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3ADF2C3D16D8003FA0CB /* ApiManager.swift */; };
+		9D3D3AE22C3D1AE4003FA0CB /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3AE12C3D1AE4003FA0CB /* AlertController.swift */; };
+		9D3D3AE52C3D1D61003FA0CB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9D3D3AE42C3D1D61003FA0CB /* Kingfisher */; };
+		9D3D3AE72C3D1D89003FA0CB /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D3AE62C3D1D89003FA0CB /* UIImage+Extension.swift */; };
+		9D8D21B52C3CCB9C00EB8668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DA02C3C234B0059F19F /* Main.storyboard */; };
+		9D8D21BF2C3CD44300EB8668 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D21BE2C3CD44300EB8668 /* LoginVC.swift */; };
+		9D8D21C32C3CE6A600EB8668 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D21C22C3CE6A600EB8668 /* BookingVC.swift */; };
+		9D8D21C52C3CE6B800EB8668 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D21C42C3CE6B800EB8668 /* WalletVC.swift */; };
+		9D8D21C72C3CE6C500EB8668 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D21C62C3CE6C500EB8668 /* ProfileVC.swift */; };
+		9D8D21D22C3D0A3900EB8668 /* BookingTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8D21D02C3D0A3900EB8668 /* BookingTCell.swift */; };
+		9D8D21D32C3D0A3900EB8668 /* BookingTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D8D21D12C3D0A3900EB8668 /* BookingTCell.xib */; };
 		9DC20D9B2C3C234B0059F19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC20D9A2C3C234B0059F19F /* AppDelegate.swift */; };
 		9DC20D9D2C3C234B0059F19F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC20D9C2C3C234B0059F19F /* SceneDelegate.swift */; };
-		9DC20D9F2C3C234B0059F19F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC20D9E2C3C234B0059F19F /* ViewController.swift */; };
 		9DC20DA22C3C234B0059F19F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DA12C3C234B0059F19F /* Base */; };
 		9DC20DA42C3C234D0059F19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DA32C3C234D0059F19F /* Assets.xcassets */; };
 		9DC20DA72C3C234D0059F19F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DA62C3C234D0059F19F /* Base */; };
+		9DC20DD82C3C27F00059F19F /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DCD2C3C27F00059F19F /* JosefinSans-Bold.ttf */; };
+		9DC20DD92C3C27F00059F19F /* JosefinSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DCE2C3C27F00059F19F /* JosefinSans-BoldItalic.ttf */; };
+		9DC20DDA2C3C27F00059F19F /* JosefinSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DCF2C3C27F00059F19F /* JosefinSans-Italic.ttf */; };
+		9DC20DDB2C3C27F00059F19F /* JosefinSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD02C3C27F00059F19F /* JosefinSans-Light.ttf */; };
+		9DC20DDC2C3C27F00059F19F /* JosefinSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD12C3C27F00059F19F /* JosefinSans-LightItalic.ttf */; };
+		9DC20DDD2C3C27F00059F19F /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD22C3C27F00059F19F /* JosefinSans-Regular.ttf */; };
+		9DC20DDE2C3C27F00059F19F /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD32C3C27F00059F19F /* JosefinSans-SemiBold.ttf */; };
+		9DC20DDF2C3C27F00059F19F /* JosefinSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD42C3C27F00059F19F /* JosefinSans-SemiBoldItalic.ttf */; };
+		9DC20DE02C3C27F00059F19F /* JosefinSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD52C3C27F00059F19F /* JosefinSans-Thin.ttf */; };
+		9DC20DE12C3C27F00059F19F /* JosefinSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC20DD62C3C27F00059F19F /* JosefinSans-ThinItalic.ttf */; };
+		9DE570BB2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE570BA2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework */; };
+		9DE570BC2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE570BA2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DFAA3E72C3D5CC7006B61A5 /* ProfileTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFAA3E62C3D5CC7006B61A5 /* ProfileTCell.xib */; };
+		9DFAA3E82C3D5CC7006B61A5 /* ProfileTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAA3E52C3D5CC7006B61A5 /* ProfileTCell.swift */; };
+		9DFAA3EA2C3D614B006B61A5 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAA3E92C3D614B006B61A5 /* CustomTabbarController.swift */; };
+		9DFAA3EC2C3D6AAC006B61A5 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAA3EB2C3D6AAC006B61A5 /* LoginModel.swift */; };
+		9DFAA3EE2C3D6B7B006B61A5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFAA3ED2C3D6B7B006B61A5 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9DE570BD2C3D3846005FF1F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9DE570BC2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		36C42A923F34440BCC235518 /* Pods-SlotBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlotBookingApp.debug.xcconfig"; path = "Target Support Files/Pods-SlotBookingApp/Pods-SlotBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		73AFDCB54BB45271AA10B450 /* Pods_SlotBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlotBookingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B06152C3D3F8400581725 /* WalletTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTCell.swift; sourceTree = "<group>"; };
+		9D2B06162C3D3F8400581725 /* WalletTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletTCell.xib; sourceTree = "<group>"; };
+		9D3D3AD92C3D165C003FA0CB /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		9D3D3ADB2C3D1670003FA0CB /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		9D3D3ADD2C3D16B5003FA0CB /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		9D3D3ADF2C3D16D8003FA0CB /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9D3D3AE12C3D1AE4003FA0CB /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		9D3D3AE62C3D1D89003FA0CB /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9D8D21BE2C3CD44300EB8668 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9D8D21C22C3CE6A600EB8668 /* BookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		9D8D21C42C3CE6B800EB8668 /* WalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		9D8D21C62C3CE6C500EB8668 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		9D8D21D02C3D0A3900EB8668 /* BookingTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTCell.swift; sourceTree = "<group>"; };
+		9D8D21D12C3D0A3900EB8668 /* BookingTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingTCell.xib; sourceTree = "<group>"; };
 		9DC20D972C3C234B0059F19F /* SlotBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC20D9A2C3C234B0059F19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC20D9C2C3C234B0059F19F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DC20D9E2C3C234B0059F19F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DC20DA12C3C234B0059F19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DC20DA32C3C234D0059F19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC20DA62C3C234D0059F19F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DC20DA82C3C234D0059F19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC20DCD2C3C27F00059F19F /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		9DC20DCE2C3C27F00059F19F /* JosefinSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9DC20DCF2C3C27F00059F19F /* JosefinSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic.ttf"; sourceTree = "<group>"; };
+		9DC20DD02C3C27F00059F19F /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		9DC20DD12C3C27F00059F19F /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		9DC20DD22C3C27F00059F19F /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		9DC20DD32C3C27F00059F19F /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		9DC20DD42C3C27F00059F19F /* JosefinSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9DC20DD52C3C27F00059F19F /* JosefinSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Thin.ttf"; sourceTree = "<group>"; };
+		9DC20DD62C3C27F00059F19F /* JosefinSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9DE570BA2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SlotBookingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFAA3E52C3D5CC7006B61A5 /* ProfileTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTCell.swift; sourceTree = "<group>"; };
+		9DFAA3E62C3D5CC7006B61A5 /* ProfileTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTCell.xib; sourceTree = "<group>"; };
+		9DFAA3E92C3D614B006B61A5 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		9DFAA3EB2C3D6AAC006B61A5 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		9DFAA3ED2C3D6B7B006B61A5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EAB100EE7485DEEDCEAC61EB /* Pods-SlotBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlotBookingApp.release.xcconfig"; path = "Target Support Files/Pods-SlotBookingApp/Pods-SlotBookingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +109,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE570BB2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework in Frameworks */,
+				9D3D3AE52C3D1D61003FA0CB /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AC21525B8CD6FF977C5B5D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DE570BA2C3D3846005FF1F6 /* Pods_SlotBookingApp.framework */,
+				73AFDCB54BB45271AA10B450 /* Pods_SlotBookingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923681B47B7C8AA519A0D9F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C42A923F34440BCC235518 /* Pods-SlotBookingApp.debug.xcconfig */,
+				EAB100EE7485DEEDCEAC61EB /* Pods-SlotBookingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D8D21B62C3CD3D300EB8668 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21BD2C3CD3F800EB8668 /* Model */,
+				9D8D21BC2C3CD3F600EB8668 /* View */,
+				9D8D21BB2C3CD3F400EB8668 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9D8D21B72C3CD3D600EB8668 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21BA2C3CD3F100EB8668 /* Model */,
+				9D8D21B92C3CD3EE00EB8668 /* View */,
+				9D8D21B82C3CD3EC00EB8668 /* ViewModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9D8D21B82C3CD3EC00EB8668 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9DFAA3ED2C3D6B7B006B61A5 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9D8D21B92C3CD3EE00EB8668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21BE2C3CD44300EB8668 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D8D21BA2C3CD3F100EB8668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DFAA3EB2C3D6AAC006B61A5 /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D8D21BB2C3CD3F400EB8668 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D3ADB2C3D1670003FA0CB /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9D8D21BC2C3CD3F600EB8668 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21CF2C3D0A0A00EB8668 /* TableCell */,
+				9D8D21C22C3CE6A600EB8668 /* BookingVC.swift */,
+				9D8D21C42C3CE6B800EB8668 /* WalletVC.swift */,
+				9D8D21C62C3CE6C500EB8668 /* ProfileVC.swift */,
+				9DFAA3E92C3D614B006B61A5 /* CustomTabbarController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D8D21BD2C3CD3F800EB8668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D3AD92C3D165C003FA0CB /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D8D21CF2C3D0A0A00EB8668 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21D02C3D0A3900EB8668 /* BookingTCell.swift */,
+				9D8D21D12C3D0A3900EB8668 /* BookingTCell.xib */,
+				9D2B06152C3D3F8400581725 /* WalletTCell.swift */,
+				9D2B06162C3D3F8400581725 /* WalletTCell.xib */,
+				9DFAA3E52C3D5CC7006B61A5 /* ProfileTCell.swift */,
+				9DFAA3E62C3D5CC7006B61A5 /* ProfileTCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
 		9DC20D8E2C3C234B0059F19F = {
 			isa = PBXGroup;
 			children = (
 				9DC20D992C3C234B0059F19F /* SlotBookingApp */,
 				9DC20D982C3C234B0059F19F /* Products */,
+				923681B47B7C8AA519A0D9F1 /* Pods */,
+				8AC21525B8CD6FF977C5B5D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +241,94 @@
 		9DC20D992C3C234B0059F19F /* SlotBookingApp */ = {
 			isa = PBXGroup;
 			children = (
-				9DC20D9A2C3C234B0059F19F /* AppDelegate.swift */,
-				9DC20D9C2C3C234B0059F19F /* SceneDelegate.swift */,
-				9DC20D9E2C3C234B0059F19F /* ViewController.swift */,
-				9DC20DA02C3C234B0059F19F /* Main.storyboard */,
-				9DC20DA32C3C234D0059F19F /* Assets.xcassets */,
-				9DC20DA52C3C234D0059F19F /* LaunchScreen.storyboard */,
+				9DC20DB42C3C23730059F19F /* Application */,
+				9DC20DB32C3C236D0059F19F /* Constant */,
+				9DC20DB22C3C23670059F19F /* Extension */,
+				9DC20DB12C3C23650059F19F /* Helper */,
+				9DC20DB02C3C23620059F19F /* Storyboards */,
+				9DC20DAF2C3C23600059F19F /* Controllers */,
+				9DC20DAE2C3C235D0059F19F /* Resources */,
 				9DC20DA82C3C234D0059F19F /* Info.plist */,
 			);
 			path = SlotBookingApp;
+			sourceTree = "<group>";
+		};
+		9DC20DAE2C3C235D0059F19F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DC20DD72C3C27F00059F19F /* Fonts */,
+				9DC20DA32C3C234D0059F19F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DC20DAF2C3C23600059F19F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D21B72C3CD3D600EB8668 /* Auth */,
+				9D8D21B62C3CD3D300EB8668 /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DC20DB02C3C23620059F19F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DC20DA02C3C234B0059F19F /* Main.storyboard */,
+				9DC20DA52C3C234D0059F19F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9DC20DB12C3C23650059F19F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D3ADF2C3D16D8003FA0CB /* ApiManager.swift */,
+				9D3D3AE62C3D1D89003FA0CB /* UIImage+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9DC20DB22C3C23670059F19F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D3AE12C3D1AE4003FA0CB /* AlertController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9DC20DB32C3C236D0059F19F /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				9D3D3ADD2C3D16B5003FA0CB /* BaseUrl.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		9DC20DB42C3C23730059F19F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9DC20D9A2C3C234B0059F19F /* AppDelegate.swift */,
+				9DC20D9C2C3C234B0059F19F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9DC20DD72C3C27F00059F19F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9DC20DCD2C3C27F00059F19F /* JosefinSans-Bold.ttf */,
+				9DC20DCE2C3C27F00059F19F /* JosefinSans-BoldItalic.ttf */,
+				9DC20DCF2C3C27F00059F19F /* JosefinSans-Italic.ttf */,
+				9DC20DD02C3C27F00059F19F /* JosefinSans-Light.ttf */,
+				9DC20DD12C3C27F00059F19F /* JosefinSans-LightItalic.ttf */,
+				9DC20DD22C3C27F00059F19F /* JosefinSans-Regular.ttf */,
+				9DC20DD32C3C27F00059F19F /* JosefinSans-SemiBold.ttf */,
+				9DC20DD42C3C27F00059F19F /* JosefinSans-SemiBoldItalic.ttf */,
+				9DC20DD52C3C27F00059F19F /* JosefinSans-Thin.ttf */,
+				9DC20DD62C3C27F00059F19F /* JosefinSans-ThinItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +338,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DC20DAB2C3C234D0059F19F /* Build configuration list for PBXNativeTarget "SlotBookingApp" */;
 			buildPhases = (
+				0D08B7E47A1B005CB01CADEA /* [CP] Check Pods Manifest.lock */,
 				9DC20D932C3C234B0059F19F /* Sources */,
 				9DC20D942C3C234B0059F19F /* Frameworks */,
 				9DC20D952C3C234B0059F19F /* Resources */,
+				6F81D5966B4EABC068AF8A6C /* [CP] Embed Pods Frameworks */,
+				9DE570BD2C3D3846005FF1F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SlotBookingApp;
+			packageProductDependencies = (
+				9D3D3AE42C3D1D61003FA0CB /* Kingfisher */,
+			);
 			productName = SlotBookingApp;
 			productReference = 9DC20D972C3C234B0059F19F /* SlotBookingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +381,9 @@
 				Base,
 			);
 			mainGroup = 9DC20D8E2C3C234B0059F19F;
+			packageReferences = (
+				9D3D3AE32C3D1D61003FA0CB /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9DC20D982C3C234B0059F19F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,21 +399,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC20DA42C3C234D0059F19F /* Assets.xcassets in Resources */,
+				9DC20DD82C3C27F00059F19F /* JosefinSans-Bold.ttf in Resources */,
+				9DC20DDA2C3C27F00059F19F /* JosefinSans-Italic.ttf in Resources */,
+				9DC20DDF2C3C27F00059F19F /* JosefinSans-SemiBoldItalic.ttf in Resources */,
+				9DC20DDE2C3C27F00059F19F /* JosefinSans-SemiBold.ttf in Resources */,
+				9DFAA3E72C3D5CC7006B61A5 /* ProfileTCell.xib in Resources */,
+				9DC20DD92C3C27F00059F19F /* JosefinSans-BoldItalic.ttf in Resources */,
 				9DC20DA72C3C234D0059F19F /* Base in Resources */,
+				9D8D21B52C3CCB9C00EB8668 /* Main.storyboard in Resources */,
+				9DC20DE12C3C27F00059F19F /* JosefinSans-ThinItalic.ttf in Resources */,
+				9DC20DDC2C3C27F00059F19F /* JosefinSans-LightItalic.ttf in Resources */,
 				9DC20DA22C3C234B0059F19F /* Base in Resources */,
+				9DC20DDD2C3C27F00059F19F /* JosefinSans-Regular.ttf in Resources */,
+				9DC20DDB2C3C27F00059F19F /* JosefinSans-Light.ttf in Resources */,
+				9D2B06172C3D3F8400581725 /* WalletTCell.xib in Resources */,
+				9D8D21D32C3D0A3900EB8668 /* BookingTCell.xib in Resources */,
+				9DC20DE02C3C27F00059F19F /* JosefinSans-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D08B7E47A1B005CB01CADEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SlotBookingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F81D5966B4EABC068AF8A6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlotBookingApp/Pods-SlotBookingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SlotBookingApp/Pods-SlotBookingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SlotBookingApp/Pods-SlotBookingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DC20D932C3C234B0059F19F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC20D9F2C3C234B0059F19F /* ViewController.swift in Sources */,
+				9D8D21C32C3CE6A600EB8668 /* BookingVC.swift in Sources */,
+				9DFAA3E82C3D5CC7006B61A5 /* ProfileTCell.swift in Sources */,
 				9DC20D9B2C3C234B0059F19F /* AppDelegate.swift in Sources */,
+				9D8D21C52C3CE6B800EB8668 /* WalletVC.swift in Sources */,
+				9D3D3ADC2C3D1670003FA0CB /* ProductViewModel.swift in Sources */,
+				9D3D3AE02C3D16D8003FA0CB /* ApiManager.swift in Sources */,
+				9D8D21C72C3CE6C500EB8668 /* ProfileVC.swift in Sources */,
+				9D2B06182C3D3F8400581725 /* WalletTCell.swift in Sources */,
+				9D3D3ADA2C3D165C003FA0CB /* ProductModel.swift in Sources */,
+				9D8D21BF2C3CD44300EB8668 /* LoginVC.swift in Sources */,
+				9D3D3ADE2C3D16B5003FA0CB /* BaseUrl.swift in Sources */,
+				9DFAA3EA2C3D614B006B61A5 /* CustomTabbarController.swift in Sources */,
+				9DFAA3EC2C3D6AAC006B61A5 /* LoginModel.swift in Sources */,
+				9D3D3AE72C3D1D89003FA0CB /* UIImage+Extension.swift in Sources */,
+				9D3D3AE22C3D1AE4003FA0CB /* AlertController.swift in Sources */,
 				9DC20D9D2C3C234B0059F19F /* SceneDelegate.swift in Sources */,
+				9DFAA3EE2C3D6B7B006B61A5 /* LoginViewModel.swift in Sources */,
+				9D8D21D22C3D0A3900EB8668 /* BookingTCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +631,13 @@
 		};
 		9DC20DAC2C3C234D0059F19F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C42A923F34440BCC235518 /* Pods-SlotBookingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlotBookingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,11 +660,13 @@
 		};
 		9DC20DAD2C3C234D0059F19F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB100EE7485DEEDCEAC61EB /* Pods-SlotBookingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlotBookingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -361,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D3D3AE32C3D1D61003FA0CB /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D3D3AE42C3D1D61003FA0CB /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D3D3AE32C3D1D61003FA0CB /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DC20D8F2C3C234B0059F19F /* Project object */;
 }

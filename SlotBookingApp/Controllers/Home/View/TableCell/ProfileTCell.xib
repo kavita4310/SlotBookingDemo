@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileTCell" rowHeight="75" id="KGk-i7-Jjw" customClass="ProfileTCell" customModule="SlotBookingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vdE-gs-xqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="75"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="AgF-CT-8yw">
+                                <rect key="frame" x="10" y="25" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="56a-zG-eMf"/>
+                                    <constraint firstAttribute="width" constant="25" id="iA1-xN-p3M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9Q-RB-F7g">
+                                <rect key="frame" x="45" y="27" width="270" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AgF-CT-8yw" firstAttribute="leading" secondItem="vdE-gs-xqZ" secondAttribute="leading" constant="10" id="7dY-xQ-9hv"/>
+                            <constraint firstAttribute="trailing" secondItem="b9Q-RB-F7g" secondAttribute="trailing" constant="10" id="IlG-EA-RVD"/>
+                            <constraint firstItem="AgF-CT-8yw" firstAttribute="centerY" secondItem="vdE-gs-xqZ" secondAttribute="centerY" id="UIS-Na-LRs"/>
+                            <constraint firstItem="b9Q-RB-F7g" firstAttribute="centerY" secondItem="AgF-CT-8yw" secondAttribute="centerY" id="a8b-ZE-mGq"/>
+                            <constraint firstItem="b9Q-RB-F7g" firstAttribute="leading" secondItem="AgF-CT-8yw" secondAttribute="trailing" constant="10" id="ymT-jZ-YDn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.97647058959999999" green="0.98039215800000001" blue="0.99607843159999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="vdE-gs-xqZ" secondAttribute="trailing" id="UC7-c3-5Qw"/>
+                    <constraint firstItem="vdE-gs-xqZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cv6-js-AV1"/>
+                    <constraint firstItem="vdE-gs-xqZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g7N-46-13m"/>
+                    <constraint firstAttribute="bottom" secondItem="vdE-gs-xqZ" secondAttribute="bottom" id="lCn-O6-hgo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="img" destination="AgF-CT-8yw" id="4kg-bT-CnN"/>
+                <outlet property="lblTitle" destination="b9Q-RB-F7g" id="Pfr-QG-XzR"/>
+            </connections>
+            <point key="canvasLocation" x="37.404580152671755" y="30.633802816901412"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="apple" width="48" height="48"/>
+    </resources>
+</document>
